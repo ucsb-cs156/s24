@@ -7,7 +7,7 @@ layout: default
 parent: lectures
 slides: https://docs.google.com/presentation/d/1nlrcLezddXiYyMpcfeDn0cE7rI0CEzITAsmF4e3z32c/edit?usp=sharing
 h00_assignment_link: https://ucsb.instructure.com/courses/17178/assignments/192286
-h00_due_date: 2024-04-04 23:59
+h00_due_date: 2024-04-08 23:59
 ---
 
 # Today's lecture focus: mutation testing
