@@ -1,7 +1,7 @@
 ---
 desc: "Spring Boot / Dokku Hello World"
 description:  "Spring Boot / Dokku Hello World"
-assigned: 2024-04-10 16:00
+assigned: 2024-04-10 17:00
 due: 2024-04-17 23:59
 github_org: ucsb-cs156-s24
 layout: default
@@ -13,22 +13,6 @@ starter: https://github.com/ucsb-cs156-s24/STARTER-jpa02
 teams_link: "<https://bit.ly/cs156-s24-teams>"
 ---
  
-# PLEASE WAIT
-# PLEASE WAIT
-# PLEASE WAIT
-# PLEASE WAIT
-
-This lab requires the use of dokku.  We need to wait until ECI has notified us
-that your dokku accounts have been created.  You are welcome to read through
-the instructions in the meantime, but please don't *start* the lab until
-you've gotten a signal from the staff that the dokku accounts are ready.
-
-# PLEASE WAIT
-# PLEASE WAIT
-# PLEASE WAIT
-# PLEASE WAIT
-
-
 {% include drop_down_style.html %}
 
 Canvas link: <https://ucsb.instructure.com/courses/17178/assignments/192308>
