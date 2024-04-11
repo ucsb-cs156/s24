@@ -372,8 +372,12 @@ Then:
 * Use git add, git commit, and git push to push your changes to github.
 * Redeploy your app using Dokku
 
-  To redeploy, follow the steps here:
-  * <https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html#deploying-an-app>
+  To redeploy, take these steps (make sure to replace `yourgithubid` with your own github id):
+  ```
+  dokku git:sync jpa02-yourgithubid https://ucsb-cs156-s24/jpa02-yourgithubid main
+  dokku ps:rebuild
+  ```
+  Then wait until it's finished, and then refresh your web browser.
 
 Ok, so far, we haven't really done anything we couldn't have done with a static web page.  But we have gotten a working Java web app running, so it's start we can build on.
 
