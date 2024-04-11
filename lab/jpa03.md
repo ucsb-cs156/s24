@@ -336,6 +336,13 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
   dokku git:sync jpa03-staff https://github.com/ucsb-cs156-s24/STARTER-jpa03 main
   dokku ps:rebuild jpa03-staff
   ```
+* Remove older users from the database, e.g.
+  ```
+  dokku postgres:connect jpa03-staff-db
+  select * from users;
+  delete from users where id>2;
+  \q
+  ```
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
 * Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-s24/settings/actions>
