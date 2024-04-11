@@ -17,22 +17,7 @@ office_hours_page: https://ucsb-cs156.github.io/s24/office-hours
 software_install_url: https://ucsb-cs156.github.io/s24/info/software.html
 ---
 
-# PLEASE WAIT
-# PLEASE WAIT
-# PLEASE WAIT
-# PLEASE WAIT
-
-This lab requires the use of dokku.  We need to wait until ECI has notified us
-that your dokku accounts have been created.  You are welcome to read through
-the instructions in the meantime, but please don't *start* the lab until
-you've gotten a signal from the staff that the dokku accounts are ready.
-
-# PLEASE WAIT
-# PLEASE WAIT
-# PLEASE WAIT
-# PLEASE WAIT
-
-For due date: see the jpa03 entry on Canvas: <>
+For due date: see the jpa03 entry on Canvas: <https://ucsb.instructure.com/courses/20058/assignments/236309>
 
 # Instructions for jpa03
 
