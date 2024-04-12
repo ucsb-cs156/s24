@@ -124,6 +124,8 @@ To login to your dokku host:
 
 # Step 3: Create your repo
 
+**The next steps are to be done in your own development enviroment(your own machine/csil). NOT on the dokku machine. The previous step is there to verify that you have access to dokku before starting the programming assignment.**
+
 You should already have a repo under the course organization
 <tt>{{page.github_org}}</tt> called
 <tt>{{page.num}}-<i>githubid</i></tt>
