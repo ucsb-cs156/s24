@@ -210,7 +210,7 @@ cd /usr/lib/jvm/
 ls
 ```
 You should now see `java-17-openjdk` or similar (ex. `java-17-openjdk-arm64`). If it is **NOT** called `java-17-openjdk` exactly, replace `/usr/lib/jvm/java-17-openjdk` in the next set of commands with what you see in your `/usr/lib/jvm/` directory.
-In either case, what you want is to add these lines to your `~/.bash_profile` file:
+What you want is to add these lines to your `~/.bash_profile` file:
 
 ```
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
