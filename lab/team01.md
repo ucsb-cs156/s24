@@ -1,7 +1,7 @@
 ---
 title: team01
 desc: "Team Project 01: Spring Boot Backend, part 1 (unauthenticated RESTFul APIs)"
-assigned: 2024-01-23 17:00
+assigned: 2024-04-16 17:00
 due: 2024-02-01 23:59
 github_org: ucsb-cs156-s24
 layout: default
@@ -13,8 +13,8 @@ starter: https://github.com/ucsb-cs156-s24/STARTER-team01
 software: https://ucsb-cs156.github.io/s24/info/software.html
 qxx: s24
 org: ucsb-cs156-s24
-participation_activity_num: p09
-participation_activity_date: "Thursday 01/23/2024"
+participation_activity_num: p07
+participation_activity_date: "Tuesday 04/16/2024"
 demo_deployment: http://team01.dokku-00.cs.ucsb.edu
 sample_team: s24-4pm-3
 teams_list: https://bit.ly/cs156-s24-teams
@@ -487,7 +487,7 @@ You will need to adjust the value passed to `Map.of` based on whatever `{key}` v
 
 You may also need some additional documentation about the parameters that your API call takes.  You can find this on the swagger-ui pages of staff solution, here:
 
-* <{{page.demo_deployment}}>/swagger-ui/index.html>
+* <{{page.demo_deployment}}/swagger-ui/index.html>
 
 NOTE: The `EarthquakeQueryService` (along with the test for it) has two hard coded parameters in addition to the ones that
 are exposed through the api (i.e. `minMag` for minimum magnitude, and `distance` (for distance in km from Storke Tower).   We
