@@ -3,7 +3,7 @@ title: team01
 desc: "Team Project 01: Spring Boot Backend, part 1 (unauthenticated RESTFul APIs)"
 assigned: 2024-01-23 17:00
 due: 2024-02-01 23:59
-github_org: ucsb-cs156-w24
+github_org: ucsb-cs156-s24
 layout: default
 parent: lab
 num: team01
@@ -71,7 +71,7 @@ There may be more columns or fewer, though typically at a minimum, there is:
 Here's how that will play out in detail:
 
 
-1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-w24-5pm-1`, `team01-w24-5pm-2`,etc.
+1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-s24-5pm-1`, `team01-s24-5pm-2`,etc.
 2. Open the link for your team's Project.  You should find four columns: `Todo`, `In Progress`, `In Review`, `Done`
 3. The `Todo` column will be populated with a set of tasks, which are called *Issues* in the GitHub implementation of Kanban.  These correspond to the Issues that we'll also see in the `Issues` column of your repo.
 4. Now navigate to your repo for {{page.num}}, which will have a url such as: <https://github.com/{{page.github_org}}/{{page.num}}-{{page.sample_team}}>.  You will see a tab for `Issues`. Click on that tab.
@@ -201,10 +201,10 @@ And here are the Kanban boards:
 
 | 4pm | 5pm | 6pm | 7pm|
 |-----|-----|-----|----|
-| [team01-{{page.qxx}}-4pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/5) | [team01-{{page.qxx}}-5pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/9) |[team01-{{page.qxx}}-6pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/13) | [team01-{{page.qxx}}-7pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/18) |
-| [team01-{{page.qxx}}-4pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/6)| [team01-{{page.qxx}}-5pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/10)|[team01-{{page.qxx}}-6pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/11)| [team01-{{page.qxx}}-7pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/14)|
-| [team01-{{page.qxx}}-4pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/7)| [team01-{{page.qxx}}-5pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/11)|[team01-{{page.qxx}}-6pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/16)| [team01-{{page.qxx}}-7pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/20)|
-| [team01-{{page.qxx}}-4pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/8) | [team01-{{page.qxx}}-5pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/12) |[team01-{{page.qxx}}-6pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/17) | [team01-{{page.qxx}}-7pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/21) |
+| [team01-{{page.qxx}}-4pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/5) | [team01-{{page.qxx}}-5pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/9) |[team01-{{page.qxx}}-6pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/13) | [team01-{{page.qxx}}-7pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/18) |
+| [team01-{{page.qxx}}-4pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/6)| [team01-{{page.qxx}}-5pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/10)|[team01-{{page.qxx}}-6pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/11)| [team01-{{page.qxx}}-7pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/14)|
+| [team01-{{page.qxx}}-4pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/7)| [team01-{{page.qxx}}-5pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/11)|[team01-{{page.qxx}}-6pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/16)| [team01-{{page.qxx}}-7pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/20)|
+| [team01-{{page.qxx}}-4pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/8) | [team01-{{page.qxx}}-5pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/12) |[team01-{{page.qxx}}-6pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/17) | [team01-{{page.qxx}}-7pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/21) |
 
 # Part 1: Team divides up the work
 
@@ -243,28 +243,28 @@ Once the app is deployed, these links should work:
 
 | Team | Link |
 |-|-|
-| w24-4pm-1 | <https://team01.dokku-01.cs.ucsb.edu> |
-| w24-4pm-2 | <https://team01.dokku-02.cs.ucsb.edu> |
-| w24-4pm-3 | <https://team01.dokku-03.cs.ucsb.edu> |
-| w24-4pm-4 | <https://team01.dokku-04.cs.ucsb.edu> |
-| w24-5pm-1 | <https://team01.dokku-05.cs.ucsb.edu> |
-| w24-5pm-2 | <https://team01.dokku-06.cs.ucsb.edu> |
-| w24-5pm-3 | <https://team01.dokku-07.cs.ucsb.edu> |
-| w24-5pm-4 | <https://team01.dokku-08.cs.ucsb.edu> |
-| w24-6pm-1 | <https://team01.dokku-09.cs.ucsb.edu> |
-| w24-6pm-2 | <https://team01.dokku-10.cs.ucsb.edu> |
-| w24-6pm-3 | <https://team01.dokku-11.cs.ucsb.edu> |
-| w24-6pm-4 | <https://team01.dokku-12.cs.ucsb.edu> |
-| w24-7pm-1 | <https://team01.dokku-13.cs.ucsb.edu> |
-| w24-7pm-2 | <https://team01.dokku-14.cs.ucsb.edu> |
-| w24-7pm-3 | <https://team01.dokku-15.cs.ucsb.edu> |
-| w24-7pm-4 | <https://team01.dokku-16.cs.ucsb.edu> |
+| s24-4pm-1 | <https://team01.dokku-01.cs.ucsb.edu> |
+| s24-4pm-2 | <https://team01.dokku-02.cs.ucsb.edu> |
+| s24-4pm-3 | <https://team01.dokku-03.cs.ucsb.edu> |
+| s24-4pm-4 | <https://team01.dokku-04.cs.ucsb.edu> |
+| s24-4pm-5 | <https://team01.dokku-05.cs.ucsb.edu> |
+| s24-4pm-6 | <https://team01.dokku-06.cs.ucsb.edu> |
+| s24-4pm-7 | <https://team01.dokku-07.cs.ucsb.edu> |
+| s24-4pm-8 | <https://team01.dokku-08.cs.ucsb.edu> |
+| s24-5pm-1 | <https://team01.dokku-09.cs.ucsb.edu> |
+| s24-5pm-2 | <https://team01.dokku-10.cs.ucsb.edu> |
+| s24-5pm-3 | <https://team01.dokku-11.cs.ucsb.edu> |
+| s24-5pm-4 | <https://team01.dokku-12.cs.ucsb.edu> |
+| s24-5pm-5 | <https://team01.dokku-13.cs.ucsb.edu> |
+| s24-5pm-6 | <https://team01.dokku-14.cs.ucsb.edu> |
+| s24-5pm-7 | <https://team01.dokku-15.cs.ucsb.edu> |
+| s24-5pm-8 | <https://team01.dokku-16.cs.ucsb.edu> |
 
 
 The result of visiting the home page of the app in the browser should be something like this:
 
 ```json
-{"api-documentation":"http://localhost:8080/swagger-ui/index.html","greeting":"Greetings from Spring Boot","repo":"https://github.com/ucsb-cs156-w24/STARTER-team01","team":["Andrew L.","Bryan T.","Calvin J.","Jacqui M.","Mara D.","Max L.","Phill C.","Wade V."]}
+{"api-documentation":"http://localhost:8080/swagger-ui/index.html","greeting":"Greetings from Spring Boot","repo":"https://github.com/ucsb-cs156-s24/STARTER-team01","team":["Andrew L.","Bryan T.","Calvin J.","Jacqui M.","Mara D.","Max L.","Phill C.","Wade V."]}
 ```
 
 It might also be nicely formatted, depending on whether you have any browser extensions installed for processing JSON:
@@ -272,7 +272,7 @@ It might also be nicely formatted, depending on whether you have any browser ext
 {
   api-documentation: "https://starter-team01.herokuapp.com/swagger-ui/",
   greeting: "Greetings from Spring Boot",
-  repo: "https://github.com/ucsb-cs156-w24/STARTER-team01",
+  repo: "https://github.com/ucsb-cs156-s24/STARTER-team01",
   team: [
     "Andrew L.",
     "Bryan T.",
@@ -399,15 +399,18 @@ git commit -m "xy - define ENDPOINT for zip code service`
 git push origin XY-ZipCode
 ```
 
-At this point, you should see your branch on Github.  The following table shows all branches for each of the twelve teams' repos; check that yours appears.
+At this point, you should see your branch on Github.  The following table shows all branches for each of the teams' repos; check that yours appears.
 
-|   |   |   |   |
-|---|---|---|---|
-| [w24-4pm-1 branches](https://github.com/ucsb-cs156-w24/team01-w24-4pm-1/branches) | [w24-4pm-2 branches](https://github.com/ucsb-cs156-w24/team01-w24-4pm-2/branches) | [w24-4pm-3 branches](https://github.com/ucsb-cs156-w24/team01-w24-4pm-3/branches) | [w24-4pm-4 branches](https://github.com/ucsb-cs156-w24/team01-w24-4pm-4/branches) |
-| [w24-5pm-1 branches](https://github.com/ucsb-cs156-w24/team01-w24-5pm-1/branches) | [w24-5pm-2 branches](https://github.com/ucsb-cs156-w24/team01-w24-5pm-2/branches) | [w24-5pm-3 branches](https://github.com/ucsb-cs156-w24/team01-w24-5pm-3/branches) | [w24-5pm-4 branches](https://github.com/ucsb-cs156-w24/team01-w24-5pm-4/branches) |
-| [w24-6pm-1 branches](https://github.com/ucsb-cs156-w24/team01-w24-6pm-1/branches) | [w24-6pm-2 branches](https://github.com/ucsb-cs156-w24/team01-w24-6pm-2/branches) | [w24-6pm-3 branches](https://github.com/ucsb-cs156-w24/team01-w24-6pm-3/branches) | [w24-6pm-4 branches](https://github.com/ucsb-cs156-w24/team01-w24-6pm-4/branches) |
-| [w24-7pm-1 branches](https://github.com/ucsb-cs156-w24/team01-w24-7pm-1/branches) | [w24-7pm-2 branches](https://github.com/ucsb-cs156-w24/team01-w24-7pm-2/branches) | [w24-7pm-3 branches](https://github.com/ucsb-cs156-w24/team01-w24-7pm-3/branches) | [w24-7pm-4 branches](https://github.com/ucsb-cs156-w24/team01-w24-7pm-4/branches) |
-
+| 4pm | 5pm 
+|-|-|
+| [s24-4pm-1 branches](https://github.com/ucsb-cs156-s24/team01-s24-4pm-1/branches) |[s24-5pm-1 branches](https://github.com/ucsb-cs156-s24/team01-s24-5pm-1/branches) |
+| [s24-4pm-2 branches](https://github.com/ucsb-cs156-s24/team01-s24-4pm-2/branches) |[s24-5pm-2 branches](https://github.com/ucsb-cs156-s24/team01-s24-5pm-2/branches) |
+| [s24-4pm-3 branches](https://github.com/ucsb-cs156-s24/team01-s24-4pm-3/branches) |[s24-5pm-3 branches](https://github.com/ucsb-cs156-s24/team01-s24-5pm-3/branches) |
+| [s24-4pm-4 branches](https://github.com/ucsb-cs156-s24/team01-s24-4pm-4/branches) |[s24-5pm-4 branches](https://github.com/ucsb-cs156-s24/team01-s24-5pm-4/branches) |
+| [s24-4pm-5 branches](https://github.com/ucsb-cs156-s24/team01-s24-4pm-5/branches) |[s24-5pm-5 branches](https://github.com/ucsb-cs156-s24/team01-s24-5pm-5/branches) |
+| [s24-4pm-6 branches](https://github.com/ucsb-cs156-s24/team01-s24-4pm-6/branches) |[s24-5pm-6 branches](https://github.com/ucsb-cs156-s24/team01-s24-5pm-6/branches) |
+| [s24-4pm-7 branches](https://github.com/ucsb-cs156-s24/team01-s24-4pm-7/branches) |[s24-5pm-7 branches](https://github.com/ucsb-cs156-s24/team01-s24-5pm-7/branches) |
+| [s24-4pm-8 branches](https://github.com/ucsb-cs156-s24/team01-s24-4pm-8/branches) |[s24-5pm-8 branches](https://github.com/ucsb-cs156-s24/team01-s24-5pm-8/branches) |
 
 ## Step 2.3: Implement the Service you were assigned
 
@@ -756,11 +759,11 @@ Now, as a team, look at one another's PRs.  You should be able to do a code revi
 
 When a PR is merged:
 * drag it's card into the Done column on the Kanban board.
-* Update your production Dokku instance with these commands: change `9am-x` to your
+* Update your production Dokku instance with these commands: change `6pm-3` to your
   actual team name:
 
   ```
-  dokku git:sync team01 https://github.com/ucsb-cs156-w24/team01-w24-9am-x main
+  dokku git:sync team01 https://github.com/ucsb-cs156-s24/team01-s24-6pm-3 main
   dokku ps:rebuild
   ```
 
@@ -793,11 +796,11 @@ When items 3.1, 3.2, and 3.3 are done, and all of the PRs are merged, you are re
 
 ## Step 4.1  Deploy your main branch on Dokku
 
-One last time, be sure that your main branch is up-to-date with Dokku; change `9am-x` to your
+One last time, be sure that your main branch is up-to-date with Dokku; change `6pm-3` to your
 actual team name:
 
 ```
-dokku git:sync team01 https://github.com/ucsb-cs156-w24/team01-w24-9am-x main
+dokku git:sync team01 https://github.com/ucsb-cs156-s24/team01-s24-6pm-3 main
 dokku ps:rebuild
 ```
 
@@ -844,12 +847,12 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 
   i.e, on dokku-00 for example, do:
   ```
-  dokku git:sync team01 https://github.com/ucsb-cs156-w24/PRIVATE-team01 main
+  dokku git:sync team01 https://github.com/ucsb-cs156-s24/PRIVATE-team01 main
   dokku ps:rebuild team01
   ```
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
-* Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-w24/settings/actions>
+* Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-s24/settings/actions>
 
   This is needed so that the github actions scripts have write access to the directory.
 
