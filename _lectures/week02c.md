@@ -1,7 +1,7 @@
 ---
 title: "Week 02c - 04.11 Thu"
 lecture_date: 2024-04-11
-description: "work on jpa01, jpa02, jpa03; try to finish by next Tuesday"
+description: "Informed Consent Briefing; work on jpa01, jpa02, jpa03; try to finish by next Tuesday"
 ready: true
 layout: default
 parent: lectures
