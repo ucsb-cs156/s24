@@ -855,7 +855,8 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
     
     ![set-team-access-admin](https://github.com/ucsb-cs156/s24/assets/1119017/aeff9ce9-4a21-42f4-84ce-cc0cce7a12d4)
 
-* Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
+* Make sure there is a private repo <https://github.com/ucsb-cs156-s24/PRIVATE-team01> with a solution (you can probably get a solution from the previous quarter).  
+* Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the private solution code:
 
   i.e, on dokku-00 for example, do:
   ```
