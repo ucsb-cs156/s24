@@ -850,8 +850,11 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 * After running the script, there are three aspects of setting up the projects that
   are manual:
   * set view to board
-  * change team access to admin
   * add "In Review" column
+  * change team access to admin
+    
+    ![set-team-access-admin](https://github.com/ucsb-cs156/s24/assets/1119017/aeff9ce9-4a21-42f4-84ce-cc0cce7a12d4)
+
 * Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
 
   i.e, on dokku-00 for example, do:
