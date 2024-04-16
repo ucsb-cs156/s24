@@ -190,21 +190,30 @@ Here are the links to the repos:
 
 
 
-| 4pm | 5pm | 6pm | 7pm|
-|-----|-----|-----|----|
-|[team01-{{page.qxx}}-4pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-1)|[team01-{{page.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-1)|[team01-{{page.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-1)|[team01-{{page.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-1)|
-|[team01-{{page.qxx}}-4pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-2)|[team01-{{page.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-2)|[team01-{{page.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-2)|[team01-{{page.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-2)|
-|[team01-{{page.qxx}}-4pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-3)|[team01-{{page.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-3)|[team01-{{page.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-3)|[team01-{{page.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-3)|
-|[team01-{{page.qxx}}-4pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-4)|[team01-{{page.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-4)|[team01-{{page.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-4)|[team01-{{page.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-4)|
+| 4pm | 5pm | 
+|-----|-----|
+|[team01-{{page.qxx}}-4pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-1)|[team01-{{page.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-1)|
+|[team01-{{page.qxx}}-4pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-2)|[team01-{{page.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-2)|
+|[team01-{{page.qxx}}-4pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-3)|[team01-{{page.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-3)|
+|[team01-{{page.qxx}}-4pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-4)|[team01-{{page.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-4)|
+|[team01-{{page.qxx}}-4pm-5](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-5)|[team01-{{page.qxx}}-5pm-5](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-5)|
+|[team01-{{page.qxx}}-4pm-6](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-6)|[team01-{{page.qxx}}-5pm-6](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-6)|
+|[team01-{{page.qxx}}-4pm-7](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-7)|[team01-{{page.qxx}}-5pm-7](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-7)|
+|[team01-{{page.qxx}}-4pm-8](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-8)|[team01-{{page.qxx}}-5pm-8](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-8)|
+
 
 And here are the Kanban boards:
 
-| 4pm | 5pm | 6pm | 7pm|
-|-----|-----|-----|----|
-| [team01-{{page.qxx}}-4pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/5) | [team01-{{page.qxx}}-5pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/9) |[team01-{{page.qxx}}-6pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/13) | [team01-{{page.qxx}}-7pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/18) |
-| [team01-{{page.qxx}}-4pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/6)| [team01-{{page.qxx}}-5pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/10)|[team01-{{page.qxx}}-6pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/11)| [team01-{{page.qxx}}-7pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/14)|
-| [team01-{{page.qxx}}-4pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/7)| [team01-{{page.qxx}}-5pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/11)|[team01-{{page.qxx}}-6pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/16)| [team01-{{page.qxx}}-7pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/20)|
-| [team01-{{page.qxx}}-4pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/8) | [team01-{{page.qxx}}-5pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/12) |[team01-{{page.qxx}}-6pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/17) | [team01-{{page.qxx}}-7pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/21) |
+| 4pm | 5pm |
+|-----|-----|
+| [team01-{{page.qxx}}-4pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/2) | [team01-{{page.qxx}}-5pm-1](https://github.com/orgs/ucsb-cs156-s24/projects/10) |
+| [team01-{{page.qxx}}-4pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/3) | [team01-{{page.qxx}}-5pm-2](https://github.com/orgs/ucsb-cs156-s24/projects/11) |
+| [team01-{{page.qxx}}-4pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/4) | [team01-{{page.qxx}}-5pm-3](https://github.com/orgs/ucsb-cs156-s24/projects/12) |
+| [team01-{{page.qxx}}-4pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/5) | [team01-{{page.qxx}}-5pm-4](https://github.com/orgs/ucsb-cs156-s24/projects/13) |
+| [team01-{{page.qxx}}-4pm-5](https://github.com/orgs/ucsb-cs156-s24/projects/6) | [team01-{{page.qxx}}-5pm-5](https://github.com/orgs/ucsb-cs156-s24/projects/14) |
+| [team01-{{page.qxx}}-4pm-6](https://github.com/orgs/ucsb-cs156-s24/projects/7) | [team01-{{page.qxx}}-5pm-6](https://github.com/orgs/ucsb-cs156-s24/projects/15) |
+| [team01-{{page.qxx}}-4pm-7](https://github.com/orgs/ucsb-cs156-s24/projects/8) | [team01-{{page.qxx}}-5pm-7](https://github.com/orgs/ucsb-cs156-s24/projects/16) |
+| [team01-{{page.qxx}}-4pm-8](https://github.com/orgs/ucsb-cs156-s24/projects/9) | [team01-{{page.qxx}}-5pm-8](https://github.com/orgs/ucsb-cs156-s24/projects/17) |
 
 # Part 1: Team divides up the work
 
