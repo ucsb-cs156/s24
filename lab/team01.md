@@ -858,11 +858,20 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 * Make sure there is a private repo <https://github.com/ucsb-cs156-s24/PRIVATE-team01> with a solution (you can probably get a solution from the previous quarter).  
 * Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the private solution code:
 
-  i.e, on dokku-00 for example, do:
+  Note that since the staff solution is private, you won't be able to sync the repo in the usual way.
+  Instead, you'll have to use the procedure for private repos.
+  
+  i.e, on dokku-00 for example, first clone the repo, then do:
   ```
-  dokku git:sync team01 https://github.com/ucsb-cs156-s24/PRIVATE-team01 main
-  dokku ps:rebuild team01
+  git remote add dokku dokku@dokku-xx.cs.ucsb.edu:my-app-name
+  git push dokku main -f
   ```
+
+  This will fail unless your private keys have been added to dokku; use this command to check:
+  ```
+  dokku ssh-keys:list
+  ```
+  
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
 * Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-s24/settings/actions>
