@@ -885,6 +885,10 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 
   <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
 
+* Make sure the kanban board numbers are updated in the team01 writeup as well as the participation activities.
+* Run the script to populate all of the repos with the starter code.  This is needed so that you can run the
+  github action to create the issues in the repos, so that they can be dragged to the Kanban boards.
 
+  There should be a script at <https://github.com/ucsb-cs156-w24/project-creator/blob/main/scripts/team01.sh> to do this.
 </details>
 
