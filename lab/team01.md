@@ -830,7 +830,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 
 * Create team01 repos using the <https://ucsb-cs-github-linker.herokuapp.com>
 
-  <img width="465" alt="image" src="https://github.com/ucsb-cs156/w24/assets/1119017/434dceb9-77a3-4ce6-9c28-a5faf4e0be1d">
+  <img width="465" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/434dceb9-77a3-4ce6-9c28-a5faf4e0be1d">
 
 * Set up starter code in the course organization, and update links
 * Create a Canvas assignment for team01; update the due dates and publish it
@@ -856,12 +856,12 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 
   This is needed so that the github actions scripts have write access to the directory.
 
-  <img width="943" alt="image" src="https://github.com/ucsb-cs156/w24/assets/1119017/de8c9efe-7bcd-48a1-97d5-0c0aa68a68db">
+  <img width="943" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/de8c9efe-7bcd-48a1-97d5-0c0aa68a68db">
 
 
   This setting is probabaly also a good idea:
 
-  <img width="972" alt="image" src="https://github.com/ucsb-cs156/w24/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
+  <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
 
 
 </details>
