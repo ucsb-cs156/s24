@@ -162,7 +162,7 @@ Here's some information on the APIs that these services are based on.
 | Service                     | Example |  More info |
 |-----------------------------|----------|-------------|
 | `JokeQueryService` | <https://v2.jokeapi.dev/joke/Programming?amount=2> | [Documentation](https://sv443.net/jokeapi/v2/)
-| `LocationQueryService`       | <https://nominatim.openstreetmap.org/search.php?q=Oxnard&format=jsonv2> | [Documentation](https://nominatim.org/release-docs/develop/api/Overview/) |
+| `LocationQueryService`       | <https://nominatim.openstreetmap.org/search?q=Oxnard&format=jsonv2> | [Documentation](https://nominatim.org/release-docs/develop/api/Overview/) |
 | `PublicHolidayQueryService` | <https://date.nager.at/api/v2/publicholidays/2023/us> |[Documentation](https://date.nager.at/Api) |
 | `TidesQueryService`         | <https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?application=ucsb-cs156&begin_date=20230710&end_date=20230712&station=9411340&product=predictions&datum=mllw&units=english&time_zone=lst_ldt&interval=hilo&format=json> |[Documentation](https://api.tidesandcurrents.noaa.gov/api/prod/) |
 | `UniversityQueryService`    | <http://universities.hipolabs.com/search?name=Stanford> |[Documentation](https://github.com/Hipo/university-domains-list-api) |
@@ -391,7 +391,7 @@ One small change you can make (it's not enough to implement the service, but it'
 | Service                     | Endpoint |
 |-----------------------------|----------|
 | `JokeService` | `https://v2.jokeapi.dev/joke/{category}?amount={numJokes}` |
-| `LocationService`       | `https://nominatim.openstreetmap.org/search/search.php?q={location}&format=jsonv2` |
+| `LocationService`       | `https://nominatim.openstreetmap.org/search?q={location}&format=jsonv2` |
 | `PublicHolidayQueryService` | `https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}` |
 | `TidesQueryService`         | `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?application=ucsb-cs156&begin_date={beginDate}&end_date={endDate}&station={station}&product=predictions&datum=mllw&units=english&time_zone=lst_ldt&interval=hilo&format=json` |
 | `UniversityQueryService`    | `http://universities.hipolabs.com/search?name={name}` |
@@ -448,7 +448,7 @@ Note the values in `{braces}`; these are variables that will get substituted int
 | Service                     | Endpoint |
 |-----------------------------|----------|
 | `JokeService` | `https://v2.jokeapi.dev/joke/{category}?amount={numJokes}` |
-| `LocationService`       | `https://nominatim.openstreetmap.org/search/search.php?q={location}&format=jsonv2` |
+| `LocationService`       | `https://nominatim.openstreetmap.org/search?q={location}&format=jsonv2` |
 | `PublicHolidayQueryService` | `https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}` |
 | `TidesQueryService`         | `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?application=ucsb-cs156&begin_date={beginDate}&end_date={endDate}&station={station}&product=predictions&datum=mllw&units=english&time_zone=lst_ldt&interval=hilo&format=json` |
 | `UniversityQueryService`    | `http://universities.hipolabs.com/search?name={name}` |
