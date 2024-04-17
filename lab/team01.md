@@ -18,7 +18,7 @@ participation_activity_date: "Tuesday 04/16/2024"
 demo_deployment: http://team01.dokku-00.cs.ucsb.edu
 sample_team: s24-4pm-3
 teams_list: https://bit.ly/cs156-s24-teams
-canvas: 
+canvas: https://ucsb.instructure.com/courses/20058/assignments/236315
 ---
 
 Canvas link: <{{page.canvas}}>
