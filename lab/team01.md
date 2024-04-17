@@ -625,7 +625,7 @@ When the tests pass and you have full coverage, make a commit, and then do a Pul
 
   ```
   In this PR, we add an service that wraps the Location API from
-  https://nominatim.openstreetmap.org/search.php?q={location}&format=json";
+  https://nominatim.openstreetmap.org/search?q={location}&format=json";
 
   Closes #5
   ```
