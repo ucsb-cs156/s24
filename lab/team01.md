@@ -159,6 +159,8 @@ Important: Initially, each team member should take responsibility for one row of
 
 Here's some information on the APIs that these services are based on.
 
+**Note:** These are real APIs so sometimes the endpoints change. That staff will try their best to keep them updated at all times, but if you discover that one has been deprecated, please let the staff know as soon as possible!
+
 | Service                     | Example |  More info |
 |-----------------------------|----------|-------------|
 | `JokeQueryService` | <https://v2.jokeapi.dev/joke/Programming?amount=2> | [Documentation](https://sv443.net/jokeapi/v2/)
@@ -387,6 +389,8 @@ public class ZipCodeQueryService {
 ```
 
 One small change you can make (it's not enough to implement the service, but it's a good start) is to add in the definition of the `ENDPOINT` variable.  It's currently an empty string.  You'll find the necessary value in the table below.  Note the values in `{braces}`; these are variables that will get substituted into the URL at a later step.
+
+**Note:** Again, these are real APIs so sometimes the endpoints change. That staff will try their best to keep them updated at all times, but if you discover that one has been deprecated, please let the staff know as soon as possible!
 
 | Service                     | Endpoint |
 |-----------------------------|----------|
@@ -873,6 +877,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
   ```
   
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
+* Make sure that the six API endpoints are all still available and operational, and update if there are any changes. Consider assigning each staff member to each API to check.
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
 * Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-s24/settings/actions>
 
