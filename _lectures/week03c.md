@@ -8,7 +8,7 @@ parent: lectures
 first_standup_link: https://ucsb-cs156.github.io/s24/hwk/p09
 first_standup: p09
 dokku_deploy_link: https://ucsb-cs156.github.io/s24/hwk/h01
-dokku_deply: h01
+dokku_deploy: h01
 ---
 
 # {{page.title}}: {{page.description}}
