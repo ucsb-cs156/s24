@@ -29,7 +29,7 @@ In this case, we will accept late submissions, but with a strict late penalty:
 
 The purpose of this is make sure that everyone on the team is actually getting started with the team project well before the deadline.  The projects in this course are not intended to be done "the night before the deadline" but to be done incrementally&mdash;a little bit each day, communicating with your team.
 
-## First Standup Meeting (p10)
+## First Standup Meeting (p09)
 
 See: <{{page.first_standup_link}}>
 
