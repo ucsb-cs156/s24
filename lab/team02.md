@@ -872,27 +872,34 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
   <img width="465" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/434dceb9-77a3-4ce6-9c28-a5faf4e0be1d">
 
 * Set up starter code in the course organization, and update links
-* Create a Canvas assignment for team02
+* Create a Canvas assignment for team02; update the due dates and publish it
 * Create projects for all of the groups. You can find a script for this here:
-  * <https://github.com/{{page.github_org}}/project-creator/blob/main/scripts/team02-projects.sh>
+  * <https://github.com/ucsb-cs156-w24/project-creator/blob/main/scripts/team01-projects.sh>
   You will probably need to make a new copy of that repo for this quarter in this
   quarter's organization and update the scripts.
 * After running the script, there are three aspects of setting up the projects that
   are manual:
   * set view to board
-  * change team access to admin
   * add "In Review" column
+  * change team access to admin
+    
+    ![set-team-access-admin](https://github.com/ucsb-cs156/s24/assets/1119017/aeff9ce9-4a21-42f4-84ce-cc0cce7a12d4)
+
+
 * Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
 
   i.e, on dokku-00 for example, do:
 
   <pre>
-  dokku git:sync team01 https://github.com/{{page.github_org}}/PRIVATE-team02 main
-  dokku ps:rebuild team01
+  dokku git:sync team02 https://github.com/{{page.github_org}}/PRIVATE-team02 main
+  dokku ps:rebuild team02
   </pre>
 
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
+
+The next step was probably already done in team01, but just in case: 
+
 * Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/{{page.github_org}}/settings/actions>
 
   This is needed so that the github actions scripts have write access to the directory.
