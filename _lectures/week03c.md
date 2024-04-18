@@ -5,17 +5,20 @@ description: "First Standup Meeting (p09), work on team01 (h01)"
 ready: true
 layout: default
 parent: lectures
-slides:
+first_standup_link: https://ucsb-cs156.github.io/s24/hwk/p09
+first_standup: p09
+dokku_deploy_link: https://ucsb-cs156.github.io/s24/hwk/h01
+dokku_deply: h01
 ---
 
 # {{page.title}}: {{page.description}}
 
-Today in lecture, we'll do the participation activity [p10](/s24/hwk/p10) which is your first standup meeting.
+Today in lecture, we'll do the participation activity [{{page.first_standup}}]{{page.first_standup_link}}) which is your first standup meeting.
 
-Then, for homework [h01](https://ucsb-cs156.github.io/s24/hwk/h01/) which you are encouraged to start in class today if you haven't already), please make sure you have a dokku dev deployment of team01
+Then, for homework [{{page.dokku_deploy}}]({{page.dokku_deploy_link}}) which you are encouraged to start in class today if you haven't already), please make sure you have a dokku dev deployment of team01
 as described here:
 
-* <https://ucsb-cs156.github.io/s24/hwk/h01/>
+* <{{page.dokku_deploy_link}}>
 
 Hopefully you already have done this!  But if not, please do it by 5pm Friday night and submit the link
 on Canvas.
@@ -28,7 +31,7 @@ The purpose of this is make sure that everyone on the team is actually getting s
 
 ## First Standup Meeting (p10)
 
-See: <https://ucsb-cs156.github.io/w24/hwk/p10/>
+See: <{{page.first_standup_link}}>
 
 Your instructor or TA will explain the purpose of a standup briefly; for this writeup, I'll just note
 that it typically lasts 5-10 minutes *and no more*. 
@@ -73,6 +76,6 @@ The idea of these "participation activities" is to help encourage accountability
 
 So you can expect a few more standups to be participation grades, but not every single one.
 
-# Dokku dev Deployment (h01)
+# Dokku dev Deployment ({{page.dokku_deploy}})
 
-See: <https://ucsb-cs156.github.io/s24/hwk/h01/>
+See: <{{page.dokku_deploy_link}}>
