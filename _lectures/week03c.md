@@ -13,7 +13,7 @@ dokku_deploy: h01
 
 # {{page.title}}: {{page.description}}
 
-Today in lecture, we'll do the participation activity [{{page.first_standup}}]{{page.first_standup_link}}) which is your first standup meeting.
+Today in lecture, we'll do the participation activity [{{page.first_standup}}]({{page.first_standup_link}}) which is your first standup meeting.
 
 Then, for homework [{{page.dokku_deploy}}]({{page.dokku_deploy_link}}) which you are encouraged to start in class today if you haven't already), please make sure you have a dokku dev deployment of team01
 as described here:
