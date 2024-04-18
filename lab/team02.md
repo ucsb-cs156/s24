@@ -55,14 +55,14 @@ Here are the links to the repos for team02
 
 | 4pm | 5pm | 
 |-----|-----|
-| [{{page.title}}-{{site.qxx}}-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/43) | [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/47) |
-| [{{page.title}}-{{site.qxx}}-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/43) | [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/47) |
-| [{{page.title}}-{{site.qxx}}-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/43) | [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/47) |
-| [{{page.title}}-{{site.qxx}}-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/43) | [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/47) |
-| [{{page.title}}-{{site.qxx}}-4pm-5](https://github.com/orgs/{{page.github_org}}/projects/43) | [{{page.title}}-{{site.qxx}}-5pm-5](https://github.com/orgs/{{page.github_org}}/projects/47) |
-| [{{page.title}}-{{site.qxx}}-4pm-6](https://github.com/orgs/{{page.github_org}}/projects/43) | [{{page.title}}-{{site.qxx}}-5pm-6](https://github.com/orgs/{{page.github_org}}/projects/47) |
-| [{{page.title}}-{{site.qxx}}-4pm-7](https://github.com/orgs/{{page.github_org}}/projects/43) | [{{page.title}}-{{site.qxx}}-5pm-7](https://github.com/orgs/{{page.github_org}}/projects/47) |
-| [{{page.title}}-{{site.qxx}}-4pm-8](https://github.com/orgs/{{page.github_org}}/projects/43) | [{{page.title}}-{{site.qxx}}-5pm-8](https://github.com/orgs/{{page.github_org}}/projects/47) |
+| [{{page.title}}-{{site.qxx}}-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/18) | [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/26) |
+| [{{page.title}}-{{site.qxx}}-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/19) | [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/27) |
+| [{{page.title}}-{{site.qxx}}-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/20) | [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/28) |
+| [{{page.title}}-{{site.qxx}}-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/21) | [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/29) |
+| [{{page.title}}-{{site.qxx}}-4pm-5](https://github.com/orgs/{{page.github_org}}/projects/22) | [{{page.title}}-{{site.qxx}}-5pm-5](https://github.com/orgs/{{page.github_org}}/projects/30) |
+| [{{page.title}}-{{site.qxx}}-4pm-6](https://github.com/orgs/{{page.github_org}}/projects/23) | [{{page.title}}-{{site.qxx}}-5pm-6](https://github.com/orgs/{{page.github_org}}/projects/31) |
+| [{{page.title}}-{{site.qxx}}-4pm-7](https://github.com/orgs/{{page.github_org}}/projects/24) | [{{page.title}}-{{site.qxx}}-5pm-7](https://github.com/orgs/{{page.github_org}}/projects/32) |
+| [{{page.title}}-{{site.qxx}}-4pm-8](https://github.com/orgs/{{page.github_org}}/projects/25) | [{{page.title}}-{{site.qxx}}-5pm-8](https://github.com/orgs/{{page.github_org}}/projects/33) |
 
 For team02, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
 {{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
