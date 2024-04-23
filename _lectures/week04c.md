@@ -18,13 +18,13 @@ slides:
 
 ### Peer Evaluations
 
-- Complete your CATME peer evaluations for `p12`
+- Complete your CATME peer evaluations for `h03`
   - Check your email for an invitation to the CATME peer evaluation
   - Complete it by 11:59pm tonight
 
 ### Work on team02
 
-- `team02` is due on Wednesday, Feb 7 at 11:59pm
+- `team02` is due on Wednesday, May 1 at 11:59pm
 
 ### Read up on the Retrospective Process
 
