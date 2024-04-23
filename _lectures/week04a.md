@@ -55,7 +55,7 @@ Erin: UCSB Organizations
 Fay: UCSB Dining Commons Menu Items
 ```
 
-# Looking ahead to Wednesday:
+# Looking ahead to Wednesday/Thursday.
 
 On Wednesday, whether you are finished or not with team01,  your team needs to do the initial assignment of topics for team02 (it breaks up into six separate subprojects, just like team01 did), and the initial set up tasks on the team's Kanban board.
 
@@ -63,12 +63,20 @@ On Wednesday, ONLY once you've done that, you may ask for help with team01.
 
 (TAs/LAs: On Wednesday, if anyone asks for help with team01, help them but only after they show you that they've claimed a database table for team02, and have assigned themselves at least one issue for that table in the In Progress column.")
 
-# Looking ahead to Thursday
+Thursday will be:
+* A standup
+* Time to work on team02, and hopefully get finished up.
 
-The first 45 minutes of class will be devoted to a different team activity, the one that I consider to be the most important part of the Agile software process: Retrospectives.    Please do be on time for class Thursday, and plan to give your full attention to that activity for the first 45 minutes.   After that, it will be a help session on team02.
+# Looking ahead to next Tuesday.
 
+Next Tuesday's class will be devoted to a different team activity, the one that I consider to be the most important part of the Agile software process: Retrospectives.    Please do be on time for class Tuesday, in person 
+if possible, andplan to give your full attention to that activity
+for the entire class.
 
-And, to prepare for Thursday, please read this article:
+There will NOT be any time to work on programming assignments
+or get help in class 
+
+To prepare for this activity, please read this article:
 
 * [Agile Retros](https://ucsb-cs156.github.io/topics/agile/agile_retros.html)
 

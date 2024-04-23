@@ -16,15 +16,11 @@ slides:
 - Do an out loud standup
 - When done with standup start reading about the retrospective process at the links below.
 
-### Peer Evaluations
-
-- Complete your CATME peer evaluations for `h03`
-  - Check your email for an invitation to the CATME peer evaluation
-  - Complete it by 11:59pm tonight
 
 ### Work on team02
 
-- `team02` is due on Wednesday, May 1 at 11:59pm
+* `team02` is due on Wednesday, May 1 at 11:59pm
+* BUT: we are starting team03 that day, so please try to finish *before* then.
 
 ### Read up on the Retrospective Process
 

@@ -11,7 +11,15 @@ slides:
 
 # {{page.description}}
 
-Today:
+### Peer Evaluations
+
+* Complete your CATME peer evaluations for `h03`
+
+  * Check your email for an invitation to the CATME peer evaluation
+  * Complete it by 11:59pm tonight
+
+## Today
+
 * Do a standup meeting to update the team on progress with team02 (or team01 if not finished.)
   * Please post written update in slack channel first
   * Then when all have posted, do out loud standing standup
@@ -25,7 +33,7 @@ Today:
 
 ## Read up on the Retrospective Process
 
-To prepare for class on Thursday, please read: 
+To prepare for class next Tuesday, please read: 
 * [Agile Retros](https://ucsb-cs156.github.io/topics/agile/agile_retros.html)
 
 # Dividing up the 6 database tables for team02
