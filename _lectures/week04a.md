@@ -25,7 +25,7 @@ Andrew and I have gone through all 12 teams Kanban boards to give you some indiv
   - In that case, you may do a code review on a merged PR [see insttructions here](https://ucsb-cs156.github.io/topics/code_reviews/reviewing_a_merged_PR.html), even though that's a bit artificial.
 
 * Once you've done the code review, complete and submit [h02](https://ucsb-cs156.github.io/s24/hwk/h02). This should just be a link to a code review that you performed for another team member on team01.
-* If you are ready to submit on Canvas, submit then start [team02](https://ucsb-cs156.github.io/w24/lab/team02.html) (the repos, starter code, kanban boards, etc. will be in place by 6pm).   Teams that have submitted on Canvas can get started.
+* If you are ready to submit on Canvas, submit then start [team02](https://ucsb-cs156.github.io/s24/lab/team02.html) (the repos, starter code, kanban boards, etc. will be in place by 6pm).   Teams that have submitted on Canvas can get started.
 * If not done with team01:
   - Work as a team on finishing team01 with the goal of submitting before midnight.
   - Consider planning ahead for some time outside of class to work on team02 so you can get caught up.
