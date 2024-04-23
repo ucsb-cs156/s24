@@ -64,10 +64,34 @@ Here are the links to the repos for team02
 | [{{page.title}}-{{site.qxx}}-4pm-7](https://github.com/orgs/{{page.github_org}}/projects/24) | [{{page.title}}-{{site.qxx}}-5pm-7](https://github.com/orgs/{{page.github_org}}/projects/32) |
 | [{{page.title}}-{{site.qxx}}-4pm-8](https://github.com/orgs/{{page.github_org}}/projects/25) | [{{page.title}}-{{site.qxx}}-5pm-8](https://github.com/orgs/{{page.github_org}}/projects/33) |
 
-For team02, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
-{{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
-please check in with the staff.
+For team02, the list of issues is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
+{{page.starter}}/blob/main/.github/workflows/99-team02.yml); your repo should have exactly {{page.num_issues} issues. 
 
+
+<details>
+<summary>
+If your Kanban is not yet populated, i.e. you don't see {{page.num_issues}} in the todo column, click the triangle for a tutorial on how to 
+populate the Todo column with all of the issues in your repo.
+</summary>  
+
+### To populate the `Todo` column with all issue in the repo
+
+1. Open the Kanban board (Project in Github terms)
+2. Click beside the `+` sign where it says `Add issues` under the Todo column as shown in the animation below.
+3. Type this symbol: `#`
+4. Type the name of your repo (e.g. `team02-s24-5pm-2`)
+5. The name of your repo will pop up.  Click on it.
+6. A dialog box will pop up.  At the botton it should say (for example): `Add issues from ucsb-cs156-s24/team02-s24-5pm-2`. Click that.
+7. Another pop up will appear titled `Add items to project`.  There will be an checkbox at the top labelled something like `25 most recent items` (the number may vary).  Click this box.
+8. Click the green button at bottom right labelled `Add selected items`
+9. Now, if there are more items to add, a new set of items will appear.  They will be added in batches of 25 until the last few are added (e.g. `17 most recent items`).  Repeat steps 7 and 8 until there are no more items to add.
+
+This animation illustrates the process:
+
+![add-all-issues](https://github.com/ucsb-cs156/s24/assets/1119017/619c1cb7-256f-4ceb-bb02-b536844b5fc8)
+
+
+</details>
 
 ## Work on your own laptop, not CSIL
 
