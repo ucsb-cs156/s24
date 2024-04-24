@@ -65,7 +65,7 @@ Here are the links to the repos for team02
 | [{{page.title}}-{{site.qxx}}-4pm-8](https://github.com/orgs/{{page.github_org}}/projects/25) | [{{page.title}}-{{site.qxx}}-5pm-8](https://github.com/orgs/{{page.github_org}}/projects/33) |
 
 For team02, the list of issues is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
-{{page.starter}}/blob/main/.github/workflows/99-team02.yml); your repo should have exactly {{page.num_issues} issues. 
+{{page.starter}}/blob/main/.github/workflows/99-team02.yml); your repo should have exactly {{page.num_issues}} issues. 
 
 
 <details>
