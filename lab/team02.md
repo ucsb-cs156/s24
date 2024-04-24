@@ -68,8 +68,8 @@ For team02, the list of issues is populated by the staff before you start using 
 {{page.starter}}/blob/main/.github/workflows/99-team02.yml); your repo should have exactly {{page.num_issues}} issues. 
 
 
-<details>
-<summary>
+<details markdown="1">
+<summary markdown="1">
 If your Kanban is not yet populated, i.e. you don't see {{page.num_issues}} in the todo column, click the triangle for a tutorial on how to 
 populate the Todo column with all of the issues in your repo.
 </summary>  
