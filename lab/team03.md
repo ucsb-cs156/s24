@@ -61,8 +61,8 @@ Here are the links to the repos for team02
 
 | 4pm | 5pm | 
 |-----|-----|
-| [{{page.title}}-{{site.qxx}}-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 0}}) | [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 8}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 1}}) | [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 9}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{(page.project_number_start + 0)}}) | [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 8}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{(page.project_number_start + 1)}}) | [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 9}}) |
 | [{{page.title}}-{{site.qxx}}-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 2}}) | [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 10}}) |
 | [{{page.title}}-{{site.qxx}}-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 3}}) | [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 11}}) |
 | [{{page.title}}-{{site.qxx}}-4pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 4}}) | [{{page.title}}-{{site.qxx}}-5pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 12}}) |
