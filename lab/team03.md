@@ -57,18 +57,18 @@ Here are the links to the repos for team02
 |[{{page.title}}-{{site.qxx}}-4pm-7](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-4pm-7)|[{{page.title}}-{{site.qxx}}-5pm-7](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-7)|
 |[{{page.title}}-{{site.qxx}}-4pm-8](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-4pm-8)|[{{page.title}}-{{site.qxx}}-5pm-8](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-8)|
 
-## Project boards (also called Kanban boards):
+## Project boards (also called Kanban boards)
 
 | 4pm | 5pm | 
 |-----|-----|
-| [{{page.title}}-{{site.qxx}}-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{(page.project_number_start + 0)}}) | [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 8}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{(page.project_number_start + 1)}}) | [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 9}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 2}}) | [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 10}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 3}}) | [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 11}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 4}}) | [{{page.title}}-{{site.qxx}}-5pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 12}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-6](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 5}}) | [{{page.title}}-{{site.qxx}}-5pm-6](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 13}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-7](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 6}}) | [{{page.title}}-{{site.qxx}}-5pm-7](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 14}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-8](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 7}}) | [{{page.title}}-{{site.qxx}}-5pm-8](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 15}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{(page.project_number_start | plus: "0")}}) | [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "8"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{(page.project_number_start | plus: "1")}}) | [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "9"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "2"}}) | [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "10"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "3"}}) | [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "11"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "4"}}) | [{{page.title}}-{{site.qxx}}-5pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "12"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-6](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "5"}}) | [{{page.title}}-{{site.qxx}}-5pm-6](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "13"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-7](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "6"}}) | [{{page.title}}-{{site.qxx}}-5pm-7](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "14"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-8](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "7"}}) | [{{page.title}}-{{site.qxx}}-5pm-8](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "15"}}) |
 
 
 For team03, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
@@ -379,14 +379,14 @@ Here are the Kanban boards:
 
 | 4pm | 5pm | 
 |-----|-----|
-| [{{page.title}}-{{site.qxx}}-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 0}}) | [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 8}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 1}}) | [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 9}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 2}}) | [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 10}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 3}}) | [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 11}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 4}}) | [{{page.title}}-{{site.qxx}}-5pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 12}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-6](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 5}}) | [{{page.title}}-{{site.qxx}}-5pm-6](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 13}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-7](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 6}}) | [{{page.title}}-{{site.qxx}}-5pm-7](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 14}}) |
-| [{{page.title}}-{{site.qxx}}-4pm-8](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 7}}) | [{{page.title}}-{{site.qxx}}-5pm-8](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start + 15}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "0"}}) | [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "8"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "1"}}) | [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "9"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "2"}}) | [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "10"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "3"}}) | [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "11"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "4"}}) | [{{page.title}}-{{site.qxx}}-5pm-5](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "12"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-6](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "5"}}) | [{{page.title}}-{{site.qxx}}-5pm-6](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "13"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-7](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "6"}}) | [{{page.title}}-{{site.qxx}}-5pm-7](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "14"}}) |
+| [{{page.title}}-{{site.qxx}}-4pm-8](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "7"}}) | [{{page.title}}-{{site.qxx}}-5pm-8](https://github.com/orgs/{{page.github_org}}/projects/{{page.project_number_start | plus: "15"}}) |
 
 
 The issues on your Kanban board can be grouped as follows:
