@@ -18,13 +18,13 @@ Then work on finishing up team03.
 
 The goal is to finish submission of team03 by midnight Friday of week 6 (May 10).
 
-There is a "grace period" until midnight Monday of week 7 (May 13).
+There is a "grace period" until midnight Tuesday of week 7 (May 14).
 
 However, that second deadline is strict; we must pivot to the legacy code projects beginning next Tuesday.
 
 # But what if you don't finish?
 
-My hope is that your team doesn't experience any grief related to team03, that you finish it before Monday of week 7 at 11:59pm.
+My hope is that your team doesn't experience any grief related to team03, that you finish it before Tuesday of week 7 at 11:59pm.
 
 But if your team still has unfinished work by then, you need to just submit what you have and hope for the best partial credit you can get.
 
