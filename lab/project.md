@@ -315,14 +315,19 @@ Instructions for setting up branch protections can be found here:
 
 Check the issues list. Make a tag (e.g. `f23`) for the issues you want the students to work on.
 
-### Set tag in workflow 99
+### Set variable to used used by workflow 99
 
-In workflow 99, be sure that the `tag` is set to the one you are using for issues you want the students to work on, e.g. `f23`
+In workflow 99, the tag gets its value from the organization variable QXX which should be set to match the tag (e.g. `S24`) that's 
+applied to the issues you want to bulk copy over.
 
-<img width="697" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/e4317f4e-0bac-4fe1-a6b2-44f5e71e32dd">
+* Visit: <https://github.com/organizations/ucsb-cs156-s24/settings/variables/actions> to set that value, e.g. to `S24`
+
+It should look like this:
+
+<img width="1065" alt="image" src="https://github.com/ucsb-cs156/s24/assets/1119017/4882662f-407a-4e8a-9ad5-a40d21957799">
 
 
-# Why we don't do this with a fork
+# Why we don't create team repos with a fork
 
 We don't use the `fork` approach for this reason: If we created the team repos as forks, then every time students create a PR, the default would be a PR back to the main repo.  This would be
 fine if each of the teams was working on an independent set of tasks, but if the design is to have each of the teams work on the *same* set of tasks, then their PRs would clash and be redundant.
