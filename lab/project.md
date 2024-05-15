@@ -596,8 +596,7 @@ Then click "Add App" at the bottom:
 
 You will also need to set up a MongoDB database instance (or else give them instructions on how to do it themselves.)
 
-TODO: add or point to details.
-
+* <https://ucsb-cs156.github.io/topics/mongodb/mongodb_staff_setup.html#onboarding-new-teams-and-devs>
 
 ## Updating Slack Channel topics
 
