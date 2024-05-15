@@ -26,19 +26,19 @@ sections:
         -
           num: 1
           dokku: "01"
-          kanban: 79
+          kanban: 50
         -
           num: 2
           dokku: "02"
-          kanban: 80
+          kanban: 51
         -
           num: 3
           dokku: "03"
-          kanban: 81
+          kanban: 52
         -
           num: 4
           dokku: "04"
-          kanban: 82
+          kanban: 53
   -
       time: 4pm
       product: proj-happycows
@@ -47,19 +47,19 @@ sections:
         -
           num: 5
           dokku: "05"
-          kanban: 83
+          kanban: 54
         -
           num: 6
           dokku: "06"
-          kanban: 84
+          kanban: 55
         -
           num: 7
           dokku: "07"
-          kanban: 85
+          kanban: 56
         -
           num: 8
           dokku: "08"
-          kanban: 86
+          kanban: 57
   -
       time: 5pm
       product: proj-organic
@@ -68,19 +68,19 @@ sections:
         -
           num: 1
           dokku: "09"
-          kanban: 87
+          kanban: 58
         -
           num: 2
           dokku: "10"
-          kanban: 88
+          kanban: 59
         -
           num: 3
           dokku: "11"
-          kanban: 89
+          kanban: 60
         -
           num: 4
           dokku: "12"
-          kanban: 90
+          kanban: 61
   -
       time: 5pm
       product: proj-gauchoride
@@ -89,19 +89,19 @@ sections:
         -
           num: 5
           dokku: "13"
-          kanban: 91
+          kanban: 62
         -
           num: 6
           dokku: "14"
-          kanban: 92
+          kanban: 63
         -
           num: 7
           dokku: "15"
-          kanban: 93
+          kanban: 64
         -
           num: 8
           dokku: "16"
-          kanban: 94
+          kanban: 65
 ---
 
 <style>
