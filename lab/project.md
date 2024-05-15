@@ -20,8 +20,8 @@ githubPagesUrl: https://ucsb-cs156-s24.github.io
 sections:
   -
       time: 4pm
-      product: proj-happycows
-      productShort: happycows
+      product: proj-courses
+      productShort: courses
       teams:
         -
           num: 1
@@ -41,8 +41,8 @@ sections:
           kanban: 82
   -
       time: 4pm
-      product: proj-courses
-      productShort: courses
+      product: proj-happycows
+      productShort: happycows
       teams:
         -
           num: 5
@@ -271,6 +271,13 @@ Information in the dropdown below is intended for course staff.  Students are we
 <summary>
 Staff information for legacy code phase
 </summary>
+
+
+## Creating the team repos
+
+Team repos are created using the usual process, but the syntax is a little different.  Here's an example for S24:
+
+
 
 ## Preparing starter repos
 
