@@ -277,7 +277,9 @@ Staff information for legacy code phase
 
 Team repos are created using the usual process, but the syntax is a little different.  Here's an example for S24:
 
+<img width="453" alt="image" src="https://github.com/ucsb-cs156/s24/assets/1119017/3992fe71-2beb-45e2-8602-d88d4a407154">
 
+Repeat for each project, selecting the appropriate teams.
 
 ## Preparing starter repos
 
@@ -431,7 +433,7 @@ Click to link the repo to the project.
 ## Set access for teams to project
 
 For each project you'll need to set the team to have access.
-=
+
 If you've already configured the kanban board links on this page (following the instructions above), you can use this process to do this efficiently:
 
 1. Open the top of this page in its own browser window
