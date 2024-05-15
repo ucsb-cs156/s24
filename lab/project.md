@@ -110,13 +110,13 @@ sections:
 
 # s24 Legacy Project Launch
 
-On {{ page.assigned | date: '%B %d, %Y, %T' }}, in section, we'll launch the legacy code projects.
+On {{ page.assigned | date: '%A %F %r' }}, in section, we'll launch the legacy code projects.
 
 This page describes how that will roll out.
 
 # Due Date
 
-The due date for getting PRs in, green on CI, and reviewed by a member of your student team is {{ page.due | date: '%F' }}, i.e. at the *start* of class that day (typically the last class day of week 9).
+The due date for getting PRs in, green on CI, and reviewed by a member of your student team is {{ page.due | date: '%A %F %r'  }}, i.e. at the *start* of class that day (typically the last class day of week 9).
 
 After that, you may only:
 * Work on existing PRs to address issues raised by the staff in code review
