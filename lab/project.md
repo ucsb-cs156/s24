@@ -275,11 +275,20 @@ Staff information for legacy code phase
 
 ## Creating the team repos
 
+
+
+To set up repos for the legacy code project phase, use the <https://ucsb-cs-github-linker.herokuapp.com> tool.  The menu option you want is "Teams // Create Team Repos":
+
+
 Team repos are created using the usual process, but the syntax is a little different.  Here's an example for S24:
 
 <img width="453" alt="image" src="https://github.com/ucsb-cs156/s24/assets/1119017/3992fe71-2beb-45e2-8602-d88d4a407154">
 
-Repeat for each project, selecting the appropriate teams.
+
+Repeat for each group of teams and each project.
+
+We assign `Write` permission rather than `Admin` permission so that the staff can control the `main` branch with branch protection rules.
+
 
 ## Preparing starter repos
 
@@ -312,21 +321,6 @@ In workflow 99, be sure that the `tag` is set to the one you are using for issue
 
 <img width="697" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/e4317f4e-0bac-4fe1-a6b2-44f5e71e32dd">
 
-## Creating the repos for the teams
-
-To set up repos for the legacy code project phase, use the <https://ucsb-cs-github-linker.herokuapp.com> tool.
-
-The menu option you want is "Teams // Create Team Repos":
-
-<img width="444" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/a354dd8d-6a1c-4c2c-a870-f8b15ab2d528">
-
-As an example, to create the repos for the `f23-5pm-.*` teams that are working on `proj-happycows`, fill in the form this way:
-
-<img width="632" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/29f11a9c-4272-43ac-88d6-ce3a3aa37cb8">
-
-Repeat for each group of teams and each project.
-
-We assign `Write` permission rather than `Admin` permission so that the staff can control the `main` branch with branch protection rules.
 
 # Why we don't do this with a fork
 
