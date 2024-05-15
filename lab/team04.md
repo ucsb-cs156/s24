@@ -32,3 +32,13 @@ There will be a team grade added to the lab portion of your grade that is based 
 * 50% of your grade: What was the overall quality of the team's reflections?  Here is where if you have "nothing to say" on 100% of your PRs, you may run into difficulties.  You should have some reflections on at least *some* of them!
 
 If you have questions, please ask on the slack channel `#help-team04`  
+
+## Example reflections
+
+Here are some sample reflections written by staff members on their own PRs so that you can get an idea of what a thoughtful reflection might look like.
+
+### PR: <https://github.com/ucsb-cs156-s24/STARTER-team03/pull/16>
+
+The main takeaway from this PR is that having copies of the exact same code across multiple files, is not the ideal way to have a cohesive and concise program. And so in this PR, I factored out all of the common code from the two test files `ITOauth.java` and `ITRestaurant.java` into a parent class `WebTestCase.java` so that the two test files would not share almost 50 lines of identical code. But one of my main reflections, looking back on the PR, is... is it really the best idea to factor out everything? or does it sometimes make sense to leave some stuff in to increase the context available to someone who is reading the file for the first time.
+
+My thought is that it depends on the case, but in this case I am torn whether it was the right decision to factor out everything. From a number of lines perspective, this is ideal. But considering that this code is what some students will be looking at for their first time seeing an integration/end-to-end test, it might be harder to understand how it works when separated into parent and child classes.
