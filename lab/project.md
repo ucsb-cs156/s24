@@ -313,7 +313,7 @@ Instructions for setting up branch protections can be found here:
 
 ### Be sure issues you want students to work on are tagged
 
-Check the issues list. Make a tag (e.g. `f23`) for the issues you want the students to work on.
+Check the issues list. Make a tag (e.g. `S24`) for the issues you want the students to work on.
 
 ### Set variable to used used by workflow 99
 
