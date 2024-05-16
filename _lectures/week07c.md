@@ -8,6 +8,53 @@ parent: lectures
 slides:
 ---
 
+# Review of yesterday in Section
+
+* Yesterday in section, we introduced the legacy code projects
+* We also made sure that each member of the team was assigned to an in-progress issue
+  - Note: it should be a real issue, not a "draft" issue.
+  - If you are assigned to a draft issue, please convert it to a real issue
+  - Also: if your issue is "factored out" of another larger one, copy over the parts of the description that pertain, and update the acceptance criteria
+  - The PR, in the end, needs to be linked to an issue with a list of acceptance criteria.  If it isn't, that will delay it getting merged, and delay your team getting the points.
+  
+# Goal for today: Deployments
+
+You can't make progress on your issues if you can't deploy on localhost, and on dokku.
+
+So today, the goal is that by the end of class, every student is able to run the the main branch of their legacy code app on localhost and create a personal dev deployment on dokku.
+
+What you'll need:
+* Create OAuth credentials
+  - For courses, happycows, gauchoride, it works just like jpa03/team02/team03
+  - BUT for organic, it's "same stuff, different provider".  It's a similar process, but not the same, because our OAuth provider is now Github instead of Google.
+  - So, check the README and the docs directory for instructions
+* Fix `ADMIN_EMAILS` (courses/happycows/gauchoride) or `ADMIN_GITHUB_LOGINS` (organic)
+  - Just as before, you'll want to have a prod and qa site where members of your team and the staff can login and try the admin features
+  - For courses/happycows/gauchoride, that's a comma separate list of ucsb emails in `ADMIN_EMAILS`
+  - But for organic, it's a comma separated list of Github Logins in `ADMIN_GITHUB_LOGINS`
+* Set up the database (just as you did for jpa03/team02/team03)
+
+
+# Extra Steps for proj-courses
+
+* You'll need to set a config var (or an .env var) called UCSB_API_KEY.  The value was distributed in your team channel.
+* You'll also need to set up a value `MONGODB_URI`.  On your team channel there's a value for this with everything except the password; for example it may look like this:
+  ```
+  MONGODB_URI=mongodb+srv://dbuser:<password>@cluster0.alernhy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+  ```
+* There is a process for obtaining the password from the <https://mongodb.com> website.
+* Once you've obtained that, please do NOT share the password in the regular team channel (though you may DM it to one another on slack).
+* If the password is, for example, `1234567abcdefg98765` you'll need to substitute it in, removing the angle brackets.
+  * Correct: `MONGODB_URI=mongodb+srv://dbuser:1234567abcdefg98765@cluster0.alernhy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+  * Incorrect:  `MONGODB_URI=mongodb+srv://dbuser:<1234567abcdefg98765>@cluster0.alernhy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+* You'll also want to set the variables `START_QTR` and `END_QTR`.  The first four digits are the year, and the last digit is:
+  * `1` for Winter, `2` for Spring, `3` for Summer, `4` for Fall.
+  * For example: `F20` is `20204`, W23 is `20231, and S24 is `20242`
+* Finally, before you deploy, type in this: `dokku git:set appname keep-git-dir true`
+  * This only has to be done once for the app
+  * It sets a flag that tells dokku to keep the .git directory in the Docker container
+  * This allows the endpoint `/app/systemInfo` to display information about the latest commit in the deployed code, which can be useful for debugging problems with dokku deployments
+    
 # team04 - reflections
 
 * Reflection is built into Agile in the retrospective
