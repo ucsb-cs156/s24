@@ -26,7 +26,10 @@ As we move into the legacy code phase of the course over the next few days, **yo
 
 # Sample Release Notes
 
-TODO: Add links to sample release notes from W24 here.
+* courses: <https://github.com/ucsb-cs156/proj-courses/blob/main/docs/release-notes/proj-courses-w24-5pm-2.pdf>
+* happycows: <https://github.com/ucsb-cs156/proj-happycows/blob/main/docs/release-notes/w24-4pm-2.pdf>
+* organic: <https://github.com/ucsb-cs156/proj-organic/blob/main/docs/release-notes/w24-6pm-1.pdf>
+* gauchoride: <https://github.com/ucsb-cs156/proj-gauchoride/blob/main/docs/release-notes/w24-7pm-1.pdf>
 
 # A brief work about the final presentations
 
