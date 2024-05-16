@@ -10,4 +10,4 @@ slides:
 
 ## Legacy Code Project Onboarding
 
-Will be posted by 4pm tomorrow.
+See this link: <https://ucsb-cs156.github.io/s24/lab/project.html>
