@@ -8,6 +8,26 @@ parent: lectures
 slides:
 ---
 
+# team04 - reflections
+
+* Reflection is built into Agile in the retrospective
+* But that should not be the only time we engage in reflection
+* Reflection, in general is a useful habit
+* To encourage you to build that habit, we have built a Slackbot that will prompt for reflection after every merged PR (or PR closed with being merged)
+
+After each PR that is merged or closed, you'll be prompted in your team channel to enter a short reflection.
+
+Your team's grade for team04 will be based on the quantity and quality of your reflections.
+
+See: <https://ucsb-cs156.github.io/s24/lab/team04.html> for details.
+
+Here's an example of what that looks like "in the wild" (link to [post on slack](https://ucsb-cs156-s24.slack.com/archives/C06RP83BA83/p1715820746266849)).  This was a PR that the staff did to the
+repo for <https://github.com/ucsb-cs156-s24/proj-gauchoride-s24-5pm-5> to debug an issue with the workflow for updating issues, so the staff entered their own reflections as an example.
+
+<img width="1041" alt="image" src="https://github.com/ucsb-cs156/s24/assets/1119017/d2f3bf3d-197d-44b5-bec7-fbcb7285d98b">
+<img width="387" alt="image" src="https://github.com/ucsb-cs156/s24/assets/1119017/83f16959-25b0-4f91-807d-95f66dc5d145">
+
+
 # Looking Ahead
 
 * Release Notes (due end of week 10)
