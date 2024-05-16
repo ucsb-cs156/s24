@@ -42,7 +42,9 @@ What you'll need:
   ```
   MONGODB_URI=mongodb+srv://dbuser:<password>@cluster0.alernhy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
   ```
-* There is a process for obtaining the password from the <https://mongodb.com> website.
+* There is a process for obtaining the URI string and the password from the <https://mongodb.com> website documented here:
+  * <https://ucsb-cs156.github.io/topics/mongodb/mongodb_spring_properties.html>
+  * You also need to set up network access from anywhere.
 * Once you've obtained that, please do NOT share the password in the regular team channel (though you may DM it to one another on slack).
 * If the password is, for example, `1234567abcdefg98765` you'll need to substitute it in, removing the angle brackets.
   * Correct: `MONGODB_URI=mongodb+srv://dbuser:1234567abcdefg98765@cluster0.alernhy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
