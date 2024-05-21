@@ -69,3 +69,9 @@ defaults:
     values:
       layout: staffer
       subpath: "/assets/images/"
+
+retro3_ooc_window_opens: 2024-05-23T18:15:00
+retro3_ooc_window_closes: 2024-05-27T17:00:00
+
+retro4_ooc_window_opens: 2024-05-30T18:15:00
+retro4_ooc_window_closes: 2024-06-06T17:00:00
