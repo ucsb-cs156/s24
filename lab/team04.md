@@ -28,8 +28,8 @@ Sometimes, a PR may be very trivial, and as a result, there may not be much to s
 
 There will be a team grade added to the lab portion of your grade that is based on two factors:
 
-* 50% of your grade: What was the percentage of these prompts that were responded to (even if it was to say: this was a trival PR; there's not much to say)
-* 50% of your grade: What was the overall quality of the team's reflections?  Here is where if you have "nothing to say" on 100% of your PRs, you may run into difficulties.  You should have some reflections on at least *some* of them!
+* 50% of your grade: *Quantity*: What was the percentage of these prompts that were responded to (even if it was to say: this was a trival PR; there's not much to say)
+* 50% of your grade: *Quality*: What was the overall quality of the team's reflections?  Here is where if you have "nothing to say" on 100% of your PRs, you may run into difficulties.  You should have some reflections on at least *some* of them!
 
 If you have questions, please ask on the slack channel `#help-team04`  
 
