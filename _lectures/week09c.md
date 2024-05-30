@@ -1,6 +1,6 @@
 ---
-title: "Week 09c - 03.07 Thu"
-lecture_date: 2024-03-07
+title: "Week 09c - 05.30 Thu"
+lecture_date: 2024-05-30
 description: "Final PRs due 2pm today (code reviews may continue)"
 ready: true
 layout: default
