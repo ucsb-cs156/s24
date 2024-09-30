@@ -12,10 +12,8 @@ Instructions on installing these follow below.
 * The latest version of git
 * Java 21
 * Maven 3.9.9
-* nvm
-* Node 16
-* npm 8
-* Heroku CLI
+* nvm (node version manager)
+* Current LTS version of Node available through nvm (currently node v20.17.0, and npm v10.8.2)
 
 ## Recommmended for Everyone
 
@@ -90,7 +88,7 @@ Instructions on installing these follow below.
 Note: If you have **already** tried using VSCode and genuinely feel like you are more of a pro at `vim`, `nano`, `neovim`, or other project/code/text editors, feel free to use whatever is convenient for you. We are suggesting VSCode for ease of all-round use.
   
   
-6. Install Java 21 on your local system.  **Please install Java 21**, and NOT Java 8, Java 11, Java 17, or a preview version of 22 or higher.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
+6. Install Java 21 on your local system.  **Please install Java 21**, and NOT Java 8, Java 11, Java 17, or a preview version of 22, 23, or higher.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
    
 For Mac users, instructions for installing with Homebrew appear below.
   
@@ -209,6 +207,19 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    When you type `mvn --version` if you are getting a version of Java other than Java 21, the fix is described
    in [this article](https://euedofia.medium.com/fix-default-java-version-on-maven-on-mac-os-x-156cf5930078) but that article is a little out of date, so here's the updated instructions:
 
+   For example, you do NOT want to see this:
+   ```
+   pconrad@Phillips-MacBook-Air ~ % mvn --version
+   Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+   Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+   Java version: 23, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home
+   Default locale: en_US, platform encoding: UTF-8
+   OS name: "mac os x", version: "14.4.1", arch: "aarch64", family: "mac"
+   pconrad@Phillips-MacBook-Air ~ % 
+   ```
+
+   That shows the correct Maven version (3.9.9) but the wrong Java version (23).
+   
    To update the maven configuration, file, edit this file; note that the version number may be different
    by the time you are reading these instructions:
 
@@ -234,16 +245,18 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    this, if you type `mvn --version` it should show Java 21, like this:
 
    ```
-   Apache Maven 3.9.9 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
-   Maven home: /opt/homebrew/Cellar/maven/3.9.6/libexec
-   Java version: 21.0.9, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@21/21.0.9/libexec/openjdk.jdk/Contents/Home
+   pconrad@Phillips-MacBook-Air ~ % mvn --version
+   Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+   Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+   Java version: 21.0.4, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@21/21.0.4/libexec/openjdk.jdk/Contents/Home
    Default locale: en_US, platform encoding: UTF-8
-   OS name: "mac os x", version: "14.1", arch: "aarch64", family: "mac"
+   OS name: "mac os x", version: "14.4.1", arch: "aarch64", family: "mac"
+   pconrad@Phillips-MacBook-Air ~ % 
    ```
    
 4. nvm, Node, and npm
 
-   It is recommended to install Node and npm through Node Version Manager (nvm). The instructions for installing this are the same as those for Linux and WSL users, so please follow the instructions listed there.
+   Even if you already have node and npm installed on your computer, you should install Node Version Manager (nvm). The instructions for installing this are the same as those for Linux and WSL users, so please follow the instructions listed there.
 
    [Install nvm and Node on WSL](https://ucsb-cs156.github.io/topics/windows/windows_wsl.html#install-nvm-and-node-on-wsl)
 
@@ -269,10 +282,8 @@ The following programs will be installed in the above guide:
 
 * The latest version of git
 * Java 21
-* Maven 3.8
+* Maven 3.9
 * nvm
-* Node 16
-* npm 8
-* Heroku CLI
+* Current LTS version of Node (currently node v20.17.0, and npm v10.8.2)
 
 If you're using a Linux distribution that is not Ubuntu (or a similar Debian-based distribution with access to `apt`), the commands listed in the setup guide linked above may not work. The staff cannot provide support on finding equivalent commands for your desired distribution, but community resources such as Stack Overflow can help here.
