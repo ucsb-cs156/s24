@@ -23,7 +23,7 @@ Instructions on installing these follow below.
 
    Be sure that you have the *latest* version of the Zoom client.  Older versions may not have some of the features we'll need for this course.
     
-   If you click on "About Zoom" inside zoom, you want a version that is 5.9.1 or later.
+   If you click on "About Zoom" inside zoom, you want a version that is 6.2.3 or later.
    
    Download it here: <https://zoom.us/download>
 
@@ -90,19 +90,10 @@ Instructions on installing these follow below.
 Note: If you have **already** tried using VSCode and genuinely feel like you are more of a pro at `vim`, `nano`, `neovim`, or other project/code/text editors, feel free to use whatever is convenient for you. We are suggesting VSCode for ease of all-round use.
   
   
-6. Install Java 21 on your local system.  **Please install Java 21**, and NOT Java 8, Java 11, or a preview version of Java 18, 19 or 20.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
+6. Install Java 21 on your local system.  **Please install Java 21**, and NOT Java 8, Java 11, Java 17, or a preview version of 22 or higher.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
    
 For Mac users, instructions for installing with Homebrew appear below.
   
-<!-- 6. Docker
-
-   Docker provides a way for you to run a standardized Linux environment inside another platform (whether that be Windows, Mac, or Linux).  It gives us the ability
-   to have a consistent development environment, but running on your own machine.
-   
-   https://www.docker.com/products/docker-desktop
-   
-   We'll be recommending Docker as a platform for running the legacy code applications later in the quarter. -->
-
 ## Recommmended for MacOS Users
 
 If you have questions about this section, please ask on the [`#help-macos`]({{site.help_macos_link}}) channel on the Slack
