@@ -11,7 +11,7 @@ Instructions on installing these follow below.
 
 * The latest version of git
 * Java 21
-* Maven 3.8
+* Maven 3.9.9
 * nvm
 * Node 16
 * npm 8
@@ -110,7 +110,7 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    If it shows something like this, you are good:
    
    ```
-   git version 2.24.3 (Apple Git-128)
+   git version 2.43.0
    ```
 
    Otherwise, you might get a message that you need to install the XCode Command Line Tools.  In that case, please just follow the instructions given.
@@ -122,7 +122,7 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    
    To install `brew`, visit <https://brew.sh/> and follow the instructions.
    
-3. Java 21
+3. Install Java 21 with `brew`: first part
    
    To install Java with homebrew, use:
    
@@ -131,17 +131,43 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    brew install openjdk@21
    ```
    
-   After this command finishes executing, there will be a line printed in the terminal that looks like this:
-   ```
-   sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-   ```
+   When the command finishes, **you are not finished**.  Keep that terminal window open and do the next part
+   immediately.
+
+3. Install Java 21 with `brew`: **important second part**
    
-   You will need to find this line in the text outputted by `brew install openjdk@21` and run it in the terminal. It should be near the end of the output. 
+   After this command finishes executing, there will be some lines printed on the terminal *similar* to, but
+   not necessarily *identical* to these:
+
+   ```
+   For the system Java wrappers to find this JDK, symlink it with
+   sudo ln -sfn /opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-21.jdk
+
+   openjdk@21 is keg-only, which means it was not symlinked into /opt/homebrew,
+   because this is an alternate version of another formula.
+
+   If you need to have openjdk@21 first in your PATH, run:
+   echo 'export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"' >> ~/.zshrc
+
+   For compilers to find openjdk@21 you may need to set:
+   export CPPFLAGS="-I/opt/homebrew/opt/openjdk@21/include"
+   ```
+
+   You will need to find theses line in the text outputted by `brew install openjdk@21`
+   and run it in the terminal. It should be near the end of the output. 
   
-   The command pasted above **will not work**; it is an example provided so you know what you're looking for. This links the software you just installed with the path **your** computer expects – some macs are different and will have different file structures. That's why you must use the command outputted by `brew install openjdk@21`.
+   Make sure you copy the commands from **your terminal output**, and **not** from this web page, since they
+   may be customized to your Mac OS version, the architecture of your machine, etc.
 
-   To check if you now have Java 21, open a new Terminal window and do:
+   * Note that the command that starts with `sudo ln -sfn ...` only has to be done once.
+   * The `echo 'export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"' >> ~/.zshrc` command puts a line in your
+     `.zshrc` startup file.  That will not take effect unless/until you start a new terminal window.
+   * The line `export CPPFLAGS="-I/opt/homebrew/opt/openjdk@21/include"` is also one that would go in your
+     `.zshrc` file.
 
+   Once you've done these, open a **new terminal window** so that the `~/.zshrc` file is read from again before
+   you test whether the Java 21 compiler was installed properly, with this command:
+   
    ```
    java -version
    ```
@@ -149,13 +175,14 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    If it worked, you should see something like this:
 
    ```
-   # java -version
-   openjdk 21.0.1 2021-10-19
-   OpenJDK Runtime Environment Homebrew (build 21.0.1+1)
-   OpenJDK 64-Bit Server VM Homebrew (build 21.0.1+1, mixed mode, sharing)
+   pconrad@Phillips-MacBook-Air ~ % java --version
+   openjdk 21.0.4 2024-07-16
+   OpenJDK Runtime Environment Homebrew (build 21.0.4)
+   OpenJDK 64-Bit Server VM Homebrew (build 21.0.4, mixed mode, sharing)
+   pconrad@Phillips-MacBook-Air ~ % 
    ```
 
-4. Maven
+5. Maven
 
    After installing Java 21, you can use `brew` to install Maven:
 
@@ -177,7 +204,7 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    mvn --version
    ```
 
-   Be sure that you have Maven version 3.8 or higher, as Java 21 requires this version to work.
+   Be sure that you have Maven version 3.9 or higher, as Java 21 requires this version to work.
 
    When you type `mvn --version` if you are getting a version of Java other than Java 21, the fix is described
    in [this article](https://euedofia.medium.com/fix-default-java-version-on-maven-on-mac-os-x-156cf5930078) but that article is a little out of date, so here's the updated instructions:
@@ -186,28 +213,28 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    by the time you are reading these instructions:
 
    ```
-   vim /opt/homebrew/Cellar/maven/3.9.6/bin/mvn
+   vim /opt/homebrew/Cellar/maven/3.9.9/bin/mvn
    ```
 
    In that file, change the line that starts with `JAVA_HOME=` to this:
 
    ```
-   JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home 21)}" exec "/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
+   JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home 21)}" exec "/opt/homebrew/Cellar/maven/3.9.9/libexec/bin/mvn" "$@"
    ```
    Or if you find that the above does not work after typing `mvn --version` then try:
     ```
-   JAVA_HOME="${JAVA_HOME:-/usr/local/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home}" exec "/usr/local/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
+   JAVA_HOME="${JAVA_HOME:-/usr/local/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home}" exec "/usr/local/Cellar/maven/3.9.9/libexec/bin/mvn" "$@"
    ```
    For Apple Silicon (M1/M2/M3), try replacing the first `openjdk` with `openjdk@21`, like this:
     ```
-   JAVA_HOME="${JAVA_HOME:-/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home}" exec "/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
+   JAVA_HOME="${JAVA_HOME:-/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home}" exec "/opt/homebrew/Cellar/maven/3.9.9/libexec/bin/mvn" "$@"
    ```
     
-   Again, you may need to adjust the version number `3.9.6` to whatever your version of Maven is.  After doing
+   Again, you may need to adjust the version number `3.9.9` to whatever your version of Maven is.  After doing
    this, if you type `mvn --version` it should show Java 21, like this:
 
    ```
-   Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+   Apache Maven 3.9.9 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
    Maven home: /opt/homebrew/Cellar/maven/3.9.6/libexec
    Java version: 21.0.9, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@21/21.0.9/libexec/openjdk.jdk/Contents/Home
    Default locale: en_US, platform encoding: UTF-8
