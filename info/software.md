@@ -10,7 +10,7 @@ parent: info
 Instructions on installing these follow below.
 
 * The latest version of git
-* Java 17
+* Java 21
 * Maven 3.8
 * nvm
 * Node 16
@@ -90,7 +90,7 @@ Instructions on installing these follow below.
 Note: If you have **already** tried using VSCode and genuinely feel like you are more of a pro at `vim`, `nano`, `neovim`, or other project/code/text editors, feel free to use whatever is convenient for you. We are suggesting VSCode for ease of all-round use.
   
   
-6. Install Java 17 on your local system.  **Please install Java 17**, and NOT Java 8, Java 11, or a preview version of Java 18, 19 or 20.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
+6. Install Java 21 on your local system.  **Please install Java 21**, and NOT Java 8, Java 11, or a preview version of Java 18, 19 or 20.   It won't matter for the `"Hello World"` program in the first week, but when we move on to complex Java applications involving third-party libraries, it will definitely matter.
    
 For Mac users, instructions for installing with Homebrew appear below.
   
@@ -131,13 +131,13 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    
    To install `brew`, visit <https://brew.sh/> and follow the instructions.
    
-3. Java 17
+3. Java 21
    
    To install Java with homebrew, use:
    
    ```
    brew update
-   brew install openjdk@17
+   brew install openjdk@21
    ```
    
    After this command finishes executing, there will be a line printed in the terminal that looks like this:
@@ -145,11 +145,11 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
    ```
    
-   You will need to find this line in the text outputted by `brew install openjdk@17` and run it in the terminal. It should be near the end of the output. 
+   You will need to find this line in the text outputted by `brew install openjdk@21` and run it in the terminal. It should be near the end of the output. 
   
-   The command pasted above **will not work**; it is an example provided so you know what you're looking for. This links the software you just installed with the path **your** computer expects – some macs are different and will have different file structures. That's why you must use the command outputted by `brew install openjdk@17`.
+   The command pasted above **will not work**; it is an example provided so you know what you're looking for. This links the software you just installed with the path **your** computer expects – some macs are different and will have different file structures. That's why you must use the command outputted by `brew install openjdk@21`.
 
-   To check if you now have Java 17, open a new Terminal window and do:
+   To check if you now have Java 21, open a new Terminal window and do:
 
    ```
    java -version
@@ -159,14 +159,14 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
 
    ```
    # java -version
-   openjdk 17.0.1 2021-10-19
-   OpenJDK Runtime Environment Homebrew (build 17.0.1+1)
-   OpenJDK 64-Bit Server VM Homebrew (build 17.0.1+1, mixed mode, sharing)
+   openjdk 21.0.1 2021-10-19
+   OpenJDK Runtime Environment Homebrew (build 21.0.1+1)
+   OpenJDK 64-Bit Server VM Homebrew (build 21.0.1+1, mixed mode, sharing)
    ```
 
 4. Maven
 
-   After installing Java 17, you can use `brew` to install Maven:
+   After installing Java 21, you can use `brew` to install Maven:
 
    ```
    brew update
@@ -186,9 +186,9 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    mvn --version
    ```
 
-   Be sure that you have Maven version 3.8 or higher, as Java 17 requires this version to work.
+   Be sure that you have Maven version 3.8 or higher, as Java 21 requires this version to work.
 
-   When you type `mvn --version` if you are getting a version of Java other than Java 17, the fix is described
+   When you type `mvn --version` if you are getting a version of Java other than Java 21, the fix is described
    in [this article](https://euedofia.medium.com/fix-default-java-version-on-maven-on-mac-os-x-156cf5930078) but that article is a little out of date, so here's the updated instructions:
 
    To update the maven configuration, file, edit this file; note that the version number may be different
@@ -201,24 +201,24 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    In that file, change the line that starts with `JAVA_HOME=` to this:
 
    ```
-   JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home 17)}" exec "/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
+   JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home 21)}" exec "/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
    ```
    Or if you find that the above does not work after typing `mvn --version` then try:
     ```
-   JAVA_HOME="${JAVA_HOME:-/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}" exec "/usr/local/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
+   JAVA_HOME="${JAVA_HOME:-/usr/local/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home}" exec "/usr/local/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
    ```
-   For Apple Silicon (M1/M2/M3), try replacing the first `openjdk` with `openjdk@17`, like this:
+   For Apple Silicon (M1/M2/M3), try replacing the first `openjdk` with `openjdk@21`, like this:
     ```
-   JAVA_HOME="${JAVA_HOME:-/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}" exec "/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
+   JAVA_HOME="${JAVA_HOME:-/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home}" exec "/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
    ```
     
    Again, you may need to adjust the version number `3.9.6` to whatever your version of Maven is.  After doing
-   this, if you type `mvn --version` it should show Java 17, like this:
+   this, if you type `mvn --version` it should show Java 21, like this:
 
    ```
    Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
    Maven home: /opt/homebrew/Cellar/maven/3.9.6/libexec
-   Java version: 17.0.9, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@17/17.0.9/libexec/openjdk.jdk/Contents/Home
+   Java version: 21.0.9, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@21/21.0.9/libexec/openjdk.jdk/Contents/Home
    Default locale: en_US, platform encoding: UTF-8
    OS name: "mac os x", version: "14.1", arch: "aarch64", family: "mac"
    ```
@@ -250,7 +250,7 @@ Native Ubuntu users (those not using Ubuntu through WSL) can skip the Windows-sp
 The following programs will be installed in the above guide:
 
 * The latest version of git
-* Java 17
+* Java 21
 * Maven 3.8
 * nvm
 * Node 16
