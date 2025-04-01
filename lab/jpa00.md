@@ -35,36 +35,19 @@ this article can help: <https://ucsb-cs156.github.io/topics/CSIL/csil_disk_quota
 This lab checks that you can succesfully edit, compile, run and submit a simple
 `Hello.java` to Gradescope for grading.
 
-
-# This course requires Java 17.
-
-If you want to try to do this lab using CSIL, read this carefully:
-
-* Java 17 was installed on CSIL on 01/02/2022, so we are hoping that you can do this lab on CSIL, but it may require some configuration of your CSIL account; instructions are included in the lab.
-* If you do *not* do the configuration, you might get Java 18, 19, 20 or 21 instead. That's likely not a problem for this particular lab (though I can't guarantee that!), but it is likely to be a problem at *some* point. So good to get this sorted now.
-* The short version is this: you need to set the environnment variable `JAVA_HOME` to `/usr/lib/jvm/java-17-openjdk`, and possibly modify your path.
-* If you don't know what that means, then read and follow the instructions carefully.
-
-
-# Maybe: try your own machine instead of CSIL?
-
-We want to encourage you to try to complete this lab on your own machine if possible.  Installing a Java 17 environment on your own machine will make everything else in the course a lot easier; while this simple "Hello World" type assignment can be easily done on CSIL, working with full stack webapps on CSIL can be awkward, at best.
-
 # Why so picky about the version?
 
 To be honest, for this first lab, the version probably doesn't matter.
 
 But later in the course, we'll be dealing with the Spring framework, which is a very complex Java framework with dozens of external dependencies.   In this case, version matters a lot!
 
-Most large Java frameworks only target *Long Term Support (LTS)* versions of Java, not intermediate versions.  That means Java 8, 11, or 17.  Versions such as 18, 19, or 20 may have incompatibilities that are not well documented or understood, and result in obscure, difficult to resolve bugs.
-
-The next Java LTS version will be Java 21 which is scheduled for Fall 2023; it may take some time after that version is released for Spring to be ready to move to it.  So I expect we'll be using Java 17 for this course at least through Fall 2023.
+Most large Java frameworks only target *Long Term Support (LTS)* versions of Java, not intermediate versions.  That means Java 11, or 17 or 21. Versions that are not LTS such as 22 and 23 may have incompatibilities that are not well documented or understood, and result in obscure, difficult to resolve bugs.
 
 More info here: <https://ucsb-cs156.github.io/topics/java/java_versions.html>
 
-# How to install Java 17 and Maven on your own machine
+# How to install Java 21 and Maven on your own machine
 
-Note: these instructions were current as of S24.   Things change every quarter&mdash;sometimes even from day to day&mdash;and the only way we find out is when students try things and tell us.  (We don't have the bandwidth to try all of the instructions on every possible OS version combination.)
+Note: these instructions were current as of S25 *as far as we know*.   Things change every quarter&mdash;sometimes even from day to day&mdash;and the only way we find out is when students try things and tell us.  (We don't have the bandwidth to try all of the instructions on every possible OS version combination.)
 
 * For MacOS, this is fairly straightfoward; see instructions [here]({{ page.course_software }}).  If you need help, ask on the `#help-macos` channel on the Slack.
 * For Windows, we recommend installing the Windows Subsystem for Linux (WSL), and then following the instructions for installation of Java 17 from [this page]( {{ page.course_software }} ).
@@ -110,20 +93,6 @@ to how we interact with CSIL.    So please read this carefully.
 
    If this is your first Computer Science course at UCSB, you'll definitely
    need to do that.
-
-2. Once you have a CSIL account, please know that the way of remotely logging
-   in to CSIL *changed* in Fall 2020.
-
-   Before Fall 2020, you were asked to *not* use `csil.cs.ucsb.edu`, but
-   instead to use `csil-01.cs.ucsb.edu`, `csil-01.cs.ucsb.edu`, etc.
-
-   *THE OPPOSITE IS NOW TRUE*.
-
-   Going forward, until told otherwise please use only
-   `csil.cs.ucsb.edu`, and do *not* use `csil-01.cs.ucsb.edu`,
-   `csil-02.cs.ucsb.edu`, etc.
-
-   As far as how to login, we'll cover that in in the next item.
 
 3. If you've ssh'd to `csil.cs.ucsb.edu` before, but haven't logged into that
    site recently, you might find that you get
